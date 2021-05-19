@@ -13,9 +13,11 @@
         "sourceType": "module"
     },
     "rules": {
-      "no-console": 1
+      "no-console": "off",
+      "prettier/prettier": "error"
     },
     "plugins": [
-      "import"
+      "import",
+      "prettier"
     ]
 }
